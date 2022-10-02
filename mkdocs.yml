@@ -1,0 +1,18 @@
+site_name: Universal Explorer
+nav:
+    - Home: index.md
+    - Project: intro.md
+    - About us: about.md
+theme:
+    name: material
+    palette:
+        - scheme: default
+          primary: blue grey
+          accent: blue grey
+markdown_extensions:
+    - attr_list
+    - pymdownx.highlight:
+        linenums: true
+    - pymdownx.superfences
+extra_css:
+    - css/main.css
